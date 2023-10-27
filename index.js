@@ -38,26 +38,6 @@ console.log("##################################### Próxima Solução ##########
 
 //#################################################################################################################
 // Sem o laço de repetição:
-let nível2 = nivel
-
-switch (nível2){
-	case "Ferro":
-	case "Bronze":
-	case "Prata":
-	case "Ouro":
-	case "Platina":
-	case "Ascendente":
-	case "Imortal":
-	case "Radiante":
-	console.log("Se XP for menor do que 1001 = Ferro")
-	console.log("Se XP estiver entre 1001 e 2000 = Bronze")
-	console.log("Se XP estiver entre 2001 e 6000 = Prata")
-	console.log("Se XP estiver entre 6001 e 7000 = Ouro")
-	console.log("Se XP estiver entre 7001 e 8000 = Platina")
-	console.log("Se XP estiver entre 8001 e 9000 = Ascendente")
-	console.log("Se XP estiver entre 9001 e 10000 = Imortal")
-	console.log("Se XP for maior que 10000 = Radiante")
-}
 
 let nomeHeroi2 = "Ton"
 let xpHeroi2 = 8250
@@ -82,3 +62,24 @@ if(xpHeroi2 < 1001){
 }
 
 console.log("O Herói " + nomeHeroi2 + " está no nível XP = " + nivel1)
+
+let nível2 = nivel1
+
+switch (nível2){
+	case "Ferro":
+	case "Bronze":
+	case "Prata":
+	case "Ouro":
+	case "Platina":
+	case "Ascendente":
+	case "Imortal":
+	case "Radiante":
+	console.log("Se XP for menor do que 1001 = Ferro")
+	console.log("Se XP estiver entre 1001 e 2000 = Bronze")
+	console.log("Se XP estiver entre 2001 e 6000 = Prata")
+	console.log("Se XP estiver entre 6001 e 7000 = Ouro")
+	console.log("Se XP estiver entre 7001 e 8000 = Platina")
+	console.log("Se XP estiver entre 8001 e 9000 = Ascendente")
+	console.log("Se XP estiver entre 9001 e 10000 = Imortal")
+	console.log("Se XP for maior que 10000 = Radiante")
+}
